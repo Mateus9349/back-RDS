@@ -17,7 +17,8 @@ module.exports = (sequelize, DataTypes) => {
     produto: DataTypes.STRING,
     quantidade: DataTypes.FLOAT,
     extrativistas: DataTypes.STRING,
-    local: DataTypes.STRING
+    local: DataTypes.STRING,
+    vendido: DataTypes.BOOLEAN,
   }, {
     sequelize,
     modelName: 'lote_final',

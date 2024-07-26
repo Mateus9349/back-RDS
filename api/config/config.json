@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "",
-    "database": "api_RDS",
+    "password": "123456",
+    "database": "RDS",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
